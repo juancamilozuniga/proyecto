@@ -18,6 +18,11 @@ module.exports = {
       contrasena: {
         type: Sequelize.STRING
       },
+      rol: {
+        type: Sequelize.ENUM('admin', 'usuario'),
+        allowNull: false,
+        defaultValue: 'usuario'
+      },
       createdAt: {
         allowNull: false,
         type: Sequelize.DATE
