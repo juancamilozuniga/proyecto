@@ -69,7 +69,7 @@ function ListarProductos() {
                 if (selectedUser) {
                     navegar("/detallesusuario");
                 } else {
-                    alert("No hay un usuario,Por favor, inicia sesión una vez mas");
+                    alert("sin usuario,inicia sesión una vez mas");
                 }
             };
 
